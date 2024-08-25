@@ -33,13 +33,15 @@ body {
   margin-bottom: 20px;
 }
 
-.logo h2 {
+.logo h1 {
   font-size: 1.5rem;
   color: #ffffff;
+  text-align: center;
 }
 
 .logo p {
   color: #f35b3f;
+  text-align: center;
 }
 
 .quick-links,
@@ -139,6 +141,7 @@ main {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  height: 250px;
 }
 
 .item h3 {
@@ -154,7 +157,7 @@ main {
 .addBtn {
   margin-top: 10px;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   outline: none;
