@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SwHYJSutYAIu4oVxOjWy0vCH9nPOe9Hyl0LfCRyoYD19qQAEDtpRdCYrsgCO7ZlGar7mBfhGicLDYa5~Y0C19FkRMJmVn-lRBvBRVs4SjXH6kl074CyeFbASv9VOgAWFzWUskDqiGkw1E4PnbfzgEVx0pmABxXa8SUJvipiPKTPx1N7cF8G2aVwI9gcqSBXUK31I3j3iHNqXlSXPk2LItz6z~fl~xF9y2D02H1JSe5ai5ccawwckzLXtS9TqgwRfiO7UBnhwkYIxDEn1ByyHCKvnsnDY-DYV4iB2529pw2TMTkNAbDlt1YJPAnblFfVifCni-TM523EySzt-sornMg__"
+            alt="Restaurant Logo"
+          />
+          <h2>Your Restaurant Menu</h2>
+          <p>Your Slogan</p>
+        </div>
+        <nav>
+          <ul class="quick-links">
+            <li>1. Home</li>
+            <li>2. Your Orders</li>
+            <li>3. Wallet</li>
+            <li>4. Profile</li>
+            <li>5. Logout</li>
+          </ul>
+        </nav>
+        <div class="more-about">
+          <h3>More About Us</h3>
+          <ul>
+            <li>1. Our Blog</li>
+            <li>2. Upcoming Dishes</li>
+            <li>3. Our Story</li>
+            <li>4. Social Media Links</li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main>
+        <header class="top-bar">
+          <input type="text" placeholder="Search Food Item" />
+          <div class="auth-buttons">
+            <button class="signup">Signup</button>
+            <button class="login">Login</button>
+          </div>
+        </header>
+
+        <section class="banner">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/bfaa/d74b/76ba1256d10f8af33fd5e08b7574087c?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hIQw5OkvO5IDUUUQAovKTijWzwKxYIYVRwQP-tCBEGAPLPEwRLtN-A77kYbstygOF3XBGQ5UY7mHDPvwWvzbtQEiwSL~-B-a8VpfrlWD6WxdWGMQYQfwRSxmgBjy31E36IkexoUa6NFTRa8P6nlzqQaQky3pti~HrG7tKo4c9koMDqt8fHRATNXn7OLrUc6YgGrNTueZ4u0HAt7jTLGWTMvT-0UFs3LWHMHA2ubHCXi--o0-7CpwgkrNdqnEUe~kDZdJaRSNUqiQ2lM2WjD~omXYs~qMxwRAKbvuUVJt0sEbjGlSfXJBNFMD5PP1l1vDurMYYeG0QvG9lspc520zKw__"
+            alt="Food Menu Banner"
+          />
+        </section>
+
+        <section id="menu">
+          <h2>Menu</h2>
+          <div id="menu-items"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
